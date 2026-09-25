@@ -13,6 +13,12 @@ The transferable part of that sprint is a loop, not a bag of tricks:
 
 The name is the mechanism: a ratchet only turns one way, so wins become permanent floors.
 
+## Install
+
+```sh
+npx skills add torztomasz/skills --skill perf-ratchet -g
+```
+
 ## Use
 
 ```
