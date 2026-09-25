@@ -21,6 +21,8 @@ npx skills add torztomasz/skills --skill perf-ratchet -g
 
 ## Use
 
+Invoke it with the journey as the argument, for example:
+
 ```
 /perf-ratchet scrolling the dashboard
 ```
