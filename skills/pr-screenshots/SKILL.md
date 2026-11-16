@@ -60,7 +60,9 @@ The pair is only evidence when the two sides differ in the change alone:
 
 Upload with `gh`'s `--attach`; private-repo images committed to the repo or
 linked by raw GitHub URL do not render, so never commit screenshots. Works on
-`pr create`, `pr edit`, `pr comment`, `issue create`, `issue comment`:
+`pr create`, `pr edit`, `pr comment`, `issue create`, `issue comment`.
+`--attach` needs `gh` 2.99.0 or newer; check `gh --version` and upgrade `gh`
+first if it is older:
 
 ```sh
 gh pr edit 23 --body-file body.md \
