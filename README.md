@@ -5,6 +5,7 @@ Agent skills I use and maintain. Each lives in `skills/<name>/` with a `SKILL.md
 | Skill | What it does |
 |---|---|
 | [perf-ratchet](skills/perf-ratchet) | Measurement-driven performance loop from Anthropic's "3x faster in two weeks" post. Name a user journey, build a proxy benchmark, ratchet it into CI. |
+| [pr-screenshots](skills/pr-screenshots) | Before/after screenshot pairs and recordings in PR descriptions: fair captures, one captioned table per change, uploaded with `gh`. The format [Peekaboo](https://github.com/torztomasz/peekaboo) turns into a flip/fade/diff view. |
 
 ## Install
 
